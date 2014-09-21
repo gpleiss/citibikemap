@@ -5,32 +5,50 @@ var svg = d3.select("#map-container").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("data/map/nyc.json", function(error, nyc) {
-  if (error) return console.error(error);
-  console.log(nyc);
+var projection = d3.geo.mercator()
+  .center([-73.9819486, 40.7242699])
+  .scale(250000)
+  .translate([(width) / 2, (height)/2])
+  .translate([(width) / 2, (height)/2]);
 
-  var data = _.filter(nyc.features, function(feature) {
+var path = d3.geo.path()
+  .projection(projection)
+  .pointRadius(1.5);
+var g = svg.append('g');
+
+d3.json("data/map/nyc.json", function(error, mapDataRaw) {
+  if (error) return console.error(error);
+
+  var mapData = _.filter(mapDataRaw.features, function(feature) {
     return _.contains([1, 3], feature.properties.boroughCode);
   });
-
-  var projection = d3.geo.mercator()
-    .center([-73.9819486, 40.7242699])
-    .scale(250000)
-    .translate([(width) / 2, (height)/2])
-    .translate([(width) / 2, (height)/2]);
-
-  var path = d3.geo.path()
-    .projection(projection);
-
-  var g = svg.append('g');
 
   g.append('g')
     .attr('id', 'map-features-container')
     .selectAll('.map-feature')
-    .data(data)
+    .data(mapData)
     .enter()
       .append('path')
       .attr('class', 'map-feature')
       .attr('data-borough', function(d) { return d.properties.boroughCode; })
       .attr('d', path);
+
+  d3.json("data/citibike/stations.json", function(error, stationsDataRaw) {
+    if (error) return console.error(error);
+
+    var stations = _.map(stationsDataRaw.stationBeanList, function(station) {
+      return {
+        type: "Point",
+        coordinates: [station.longitude, station.latitude]
+      };
+    });
+
+    g.append('g')
+      .attr('id', 'stations-container')
+      .selectAll('stations')
+      .data(stations)
+      .enter()
+        .append('path')
+        .attr('d', path);
+  });
 });
