@@ -1,0 +1,5 @@
+# Folders/file patterns
+node_modules
+
+# Data
+app/data/citibike
