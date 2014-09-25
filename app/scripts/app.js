@@ -14,10 +14,17 @@ var projection = d3.geo.mercator()
 var path = d3.geo.path()
   .projection(projection)
   .pointRadius(1.5);
+
 var g = svg.append('g');
 
-d3.json("data/map/nyc.json", function(error, mapDataRaw) {
+async.map([
+  'data/map/nyc.json',
+  'data/citibike/stations.json'
+], d3.json, function(error, data) {
   if (error) return console.error(error);
+
+  var mapDataRaw = data[0];
+  var stationsDataRaw = data[1];
 
   var mapData = _.filter(mapDataRaw.features, function(feature) {
     return _.contains([1, 3], feature.properties.boroughCode);
@@ -33,30 +40,26 @@ d3.json("data/map/nyc.json", function(error, mapDataRaw) {
       .attr('data-borough', function(d) { return d.properties.boroughCode; })
       .attr('d', path);
 
-  d3.json("data/citibike/stations.json", function(error, stationsDataRaw) {
-    if (error) return console.error(error);
-
-    var stations = _.map(stationsDataRaw.stationBeanList, function(station) {
-      return {
-        type: "Point",
-        coordinates: [station.longitude, station.latitude]
-      };
-    });
-
-    var stationsContainer = g.append('g')
-      .attr('id', 'stations-container')
-
-    var newStationsGroups = stationsContainer.selectAll('stations')
-      .data(stations)
-      .enter()
-        .append('g')
-        .attr('class', 'stations')
-        .attr("transform", function(d) { return "translate(" + projection(d.coordinates) + ")"; })
-
-    newStationsGroups
-      .append('circle')
-      .attr('cx', 0)
-      .attr('cy', 0)
-      .attr('r', 2);
+  var stations = _.map(stationsDataRaw.stationBeanList, function(station) {
+    return {
+      id: station.id,
+      coordinates: [station.longitude, station.latitude]
+    };
   });
+
+  var stationsContainer = g.append('g')
+    .attr('id', 'stations-container')
+
+  var newStationsGroups = stationsContainer.selectAll('stations')
+    .data(stations)
+    .enter()
+      .append('g')
+      .attr('class', 'stations')
+      .attr("transform", function(d) { return "translate(" + projection(d.coordinates) + ")"; })
+
+  newStationsGroups
+    .append('circle')
+    .attr('cx', 0)
+    .attr('cy', 0)
+    .attr('r', 2);
 });
