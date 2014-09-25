@@ -43,12 +43,20 @@ d3.json("data/map/nyc.json", function(error, mapDataRaw) {
       };
     });
 
-    g.append('g')
+    var stationsContainer = g.append('g')
       .attr('id', 'stations-container')
-      .selectAll('stations')
+
+    var newStationsGroups = stationsContainer.selectAll('stations')
       .data(stations)
       .enter()
-        .append('path')
-        .attr('d', path);
+        .append('g')
+        .attr('class', 'stations')
+        .attr("transform", function(d) { return "translate(" + projection(d.coordinates) + ")"; })
+
+    newStationsGroups
+      .append('circle')
+      .attr('cx', 0)
+      .attr('cy', 0)
+      .attr('r', 2);
   });
 });
