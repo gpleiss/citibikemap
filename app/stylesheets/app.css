@@ -3,3 +3,7 @@
   stroke-width: 2px;
   stroke: #888;
 }
+
+.neighborhood text {
+  font-size: 8px;
+}

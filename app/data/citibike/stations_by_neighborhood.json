@@ -1,0 +1,2337 @@
+[
+  {
+    "stations": [
+      {
+        "id": 83,
+        "latitude": 40.68382604,
+        "longitude": -73.97632328
+      }
+    ],
+    "name": "Prospect Heights",
+    "averageLocation": [
+      -73.97632328,
+      40.68382604
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 79,
+        "latitude": 40.71911552,
+        "longitude": -74.00666661
+      },
+      {
+        "id": 147,
+        "latitude": 40.71542197,
+        "longitude": -74.01121978
+      },
+      {
+        "id": 146,
+        "latitude": 40.71625008,
+        "longitude": -74.0091059
+      },
+      {
+        "id": 249,
+        "latitude": 40.71870987,
+        "longitude": -74.0090009
+      },
+      {
+        "id": 248,
+        "latitude": 40.72185379,
+        "longitude": -74.00771779
+      },
+      {
+        "id": 276,
+        "latitude": 40.71748752,
+        "longitude": -74.0104554
+      },
+      {
+        "id": 320,
+        "latitude": 40.717571,
+        "longitude": -74.005549
+      },
+      {
+        "id": 329,
+        "latitude": 40.72043411,
+        "longitude": -74.01020609
+      },
+      {
+        "id": 426,
+        "latitude": 40.71754834,
+        "longitude": -74.01322069
+      }
+    ],
+    "name": "Tribeca",
+    "averageLocation": [
+      -74.00923801777776,
+      40.7182658
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 72,
+        "latitude": 40.76727216,
+        "longitude": -73.99392888
+      }
+    ],
+    "name": "Clinton",
+    "averageLocation": [
+      -73.99392888,
+      40.76727216
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 116,
+        "latitude": 40.74177603,
+        "longitude": -74.00149746
+      },
+      {
+        "id": 212,
+        "latitude": 40.74334935,
+        "longitude": -74.00681753
+      },
+      {
+        "id": 225,
+        "latitude": 40.74195138,
+        "longitude": -74.00803013
+      },
+      {
+        "id": 284,
+        "latitude": 40.7390169121,
+        "longitude": -74.0026376103
+      },
+      {
+        "id": 405,
+        "latitude": 40.739323,
+        "longitude": -74.008119
+      },
+      {
+        "id": 404,
+        "latitude": 40.7405826,
+        "longitude": -74.00550867
+      },
+      {
+        "id": 434,
+        "latitude": 40.74317449,
+        "longitude": -74.00366443
+      },
+      {
+        "id": 459,
+        "latitude": 40.746745,
+        "longitude": -74.007756
+      },
+      {
+        "id": 463,
+        "latitude": 40.74206539,
+        "longitude": -74.00443172
+      }
+    ],
+    "name": "Meat Packing District",
+    "averageLocation": [
+      -74.0053847278111,
+      40.74199823912222
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 119,
+        "latitude": 40.69608941,
+        "longitude": -73.97803415
+      },
+      {
+        "id": 239,
+        "latitude": 40.69196566,
+        "longitude": -73.9813018
+      },
+      {
+        "id": 324,
+        "latitude": 40.689888,
+        "longitude": -73.981013
+      },
+      {
+        "id": 431,
+        "latitude": 40.68864636,
+        "longitude": -73.98263429
+      }
+    ],
+    "name": "Down Town",
+    "averageLocation": [
+      -73.98074581,
+      40.6916473575
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 120,
+        "latitude": 40.68676793,
+        "longitude": -73.95928168
+      },
+      {
+        "id": 244,
+        "latitude": 40.69196035,
+        "longitude": -73.96536851
+      },
+      {
+        "id": 258,
+        "latitude": 40.68940747,
+        "longitude": -73.96885458
+      },
+      {
+        "id": 275,
+        "latitude": 40.68650065,
+        "longitude": -73.96563307
+      },
+      {
+        "id": 354,
+        "latitude": 40.69363137,
+        "longitude": -73.96223558
+      },
+      {
+        "id": 364,
+        "latitude": 40.68900443,
+        "longitude": -73.96023854
+      },
+      {
+        "id": 366,
+        "latitude": 40.693261,
+        "longitude": -73.968896
+      },
+      {
+        "id": 372,
+        "latitude": 40.694528,
+        "longitude": -73.958089
+      },
+      {
+        "id": 399,
+        "latitude": 40.68851534,
+        "longitude": -73.9647628
+      },
+      {
+        "id": 409,
+        "latitude": 40.6906495,
+        "longitude": -73.95643107
+      },
+      {
+        "id": 420,
+        "latitude": 40.68764484,
+        "longitude": -73.96968902
+      }
+    ],
+    "name": "Clinton Hill",
+    "averageLocation": [
+      -73.96358907727273,
+      40.69017008
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 128,
+        "latitude": 40.72710258,
+        "longitude": -74.00297088
+      },
+      {
+        "id": 328,
+        "latitude": 40.72405549,
+        "longitude": -74.00965965
+      },
+      {
+        "id": 347,
+        "latitude": 40.72873888,
+        "longitude": -74.00748842
+      },
+      {
+        "id": 348,
+        "latitude": 40.72490985,
+        "longitude": -74.00154702
+      },
+      {
+        "id": 377,
+        "latitude": 40.72243797,
+        "longitude": -74.00566443
+      },
+      {
+        "id": 2004,
+        "latitude": 40.724399,
+        "longitude": -74.004704
+      }
+    ],
+    "name": "Soho",
+    "averageLocation": [
+      -74.00533906666666,
+      40.725273961666666
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 127,
+        "latitude": 40.73172428,
+        "longitude": -74.00674436
+      },
+      {
+        "id": 223,
+        "latitude": 40.73781509,
+        "longitude": -73.99994661
+      },
+      {
+        "id": 238,
+        "latitude": 40.7361967,
+        "longitude": -74.00859207
+      },
+      {
+        "id": 247,
+        "latitude": 40.73535398,
+        "longitude": -74.00483091
+      },
+      {
+        "id": 346,
+        "latitude": 40.73652889,
+        "longitude": -74.00618026
+      },
+      {
+        "id": 358,
+        "latitude": 40.73291553,
+        "longitude": -74.00711384
+      },
+      {
+        "id": 380,
+        "latitude": 40.73401143,
+        "longitude": -74.00293877
+      },
+      {
+        "id": 383,
+        "latitude": 40.735238,
+        "longitude": -74.000271
+      },
+      {
+        "id": 482,
+        "latitude": 40.73935542,
+        "longitude": -73.99931783
+      }
+    ],
+    "name": "West Village",
+    "averageLocation": [
+      -74.00399284999999,
+      40.73545992444444
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 82,
+        "latitude": 40.71117416,
+        "longitude": -74.00016545
+      },
+      {
+        "id": 308,
+        "latitude": 40.71307916,
+        "longitude": -73.99851193
+      },
+      {
+        "id": 2009,
+        "latitude": 40.71117444,
+        "longitude": -73.99682619
+      }
+    ],
+    "name": "Governor Alfred e Smith Houses",
+    "averageLocation": [
+      -73.99850119,
+      40.71180925333333
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 143,
+        "latitude": 40.69239502,
+        "longitude": -73.99337909
+      },
+      {
+        "id": 232,
+        "latitude": 40.69597683,
+        "longitude": -73.99014892
+      },
+      {
+        "id": 233,
+        "latitude": 40.69246277,
+        "longitude": -73.98963911
+      },
+      {
+        "id": 310,
+        "latitude": 40.68926942,
+        "longitude": -73.98912867
+      },
+      {
+        "id": 314,
+        "latitude": 40.69383,
+        "longitude": -73.990539
+      },
+      {
+        "id": 322,
+        "latitude": 40.696192,
+        "longitude": -73.991218
+      }
+    ],
+    "name": "Cadman Plaza",
+    "averageLocation": [
+      -73.990675465,
+      40.69335434
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 144,
+        "latitude": 40.69839895,
+        "longitude": -73.98068914
+      },
+      {
+        "id": 2001,
+        "latitude": 40.699773,
+        "longitude": -73.979927
+      },
+      {
+        "id": 2005,
+        "latitude": 40.70531194,
+        "longitude": -73.97100056
+      }
+    ],
+    "name": "New York Navy Yard",
+    "averageLocation": [
+      -73.97720556666667,
+      40.70116129666667
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 137,
+        "latitude": 40.761628,
+        "longitude": -73.972924
+      },
+      {
+        "id": 164,
+        "latitude": 40.75323098,
+        "longitude": -73.97032517
+      },
+      {
+        "id": 228,
+        "latitude": 40.7546011026,
+        "longitude": -73.971878855
+      },
+      {
+        "id": 305,
+        "latitude": 40.76095756,
+        "longitude": -73.96724467
+      },
+      {
+        "id": 367,
+        "latitude": 40.75828065,
+        "longitude": -73.97069431
+      },
+      {
+        "id": 385,
+        "latitude": 40.75797322,
+        "longitude": -73.96603308
+      },
+      {
+        "id": 441,
+        "latitude": 40.756014,
+        "longitude": -73.967416
+      },
+      {
+        "id": 454,
+        "latitude": 40.75455731,
+        "longitude": -73.96592976
+      },
+      {
+        "id": 456,
+        "latitude": 40.7597108,
+        "longitude": -73.97402311
+      },
+      {
+        "id": 464,
+        "latitude": 40.75934501,
+        "longitude": -73.96759673
+      },
+      {
+        "id": 522,
+        "latitude": 40.75714758,
+        "longitude": -73.97207836
+      },
+      {
+        "id": 2023,
+        "latitude": 40.75968085,
+        "longitude": -73.97031366
+      }
+    ],
+    "name": "Turtle Bay",
+    "averageLocation": [
+      -73.96970480875,
+      40.75776058855
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 152,
+        "latitude": 40.71473993,
+        "longitude": -74.00910627
+      },
+      {
+        "id": 224,
+        "latitude": 40.71146364,
+        "longitude": -74.00552427
+      },
+      {
+        "id": 319,
+        "latitude": 40.71336124,
+        "longitude": -74.00937622
+      }
+    ],
+    "name": "City Hall Area",
+    "averageLocation": [
+      -74.00800225333333,
+      40.71318827
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 151,
+        "latitude": 40.7218158,
+        "longitude": -73.99720307
+      },
+      {
+        "id": 265,
+        "latitude": 40.72229346,
+        "longitude": -73.99147535
+      },
+      {
+        "id": 375,
+        "latitude": 40.72679454,
+        "longitude": -73.99695094
+      },
+      {
+        "id": 473,
+        "latitude": 40.72110063,
+        "longitude": -73.9919254
+      }
+    ],
+    "name": "Downtown",
+    "averageLocation": [
+      -73.99438869,
+      40.723001107500004
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 160,
+        "latitude": 40.748238,
+        "longitude": -73.978311
+      },
+      {
+        "id": 167,
+        "latitude": 40.7489006,
+        "longitude": -73.97604882
+      }
+    ],
+    "name": "Murray Hill",
+    "averageLocation": [
+      -73.97717991,
+      40.7485693
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 157,
+        "latitude": 40.69089272,
+        "longitude": -73.99612349
+      },
+      {
+        "id": 398,
+        "latitude": 40.69165183,
+        "longitude": -73.9999786
+      }
+    ],
+    "name": "Cobble Hill",
+    "averageLocation": [
+      -73.99805104500001,
+      40.691272275
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 153,
+        "latitude": 40.752062307,
+        "longitude": -73.9816324043
+      },
+      {
+        "id": 465,
+        "latitude": 40.75513557,
+        "longitude": -73.98658032
+      },
+      {
+        "id": 485,
+        "latitude": 40.75038009,
+        "longitude": -73.98338988
+      },
+      {
+        "id": 524,
+        "latitude": 40.75527307,
+        "longitude": -73.98316936
+      },
+      {
+        "id": 533,
+        "latitude": 40.75299641,
+        "longitude": -73.98721619
+      }
+    ],
+    "name": "Tenderloin",
+    "averageLocation": [
+      -73.98439763086,
+      40.7531694894
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 161,
+        "latitude": 40.72917025,
+        "longitude": -73.99810231
+      },
+      {
+        "id": 252,
+        "latitude": 40.73226398,
+        "longitude": -73.99852205
+      },
+      {
+        "id": 254,
+        "latitude": 40.73532427,
+        "longitude": -73.99800419
+      },
+      {
+        "id": 280,
+        "latitude": 40.73331967,
+        "longitude": -73.99510132
+      },
+      {
+        "id": 293,
+        "latitude": 40.73028666,
+        "longitude": -73.9907647
+      },
+      {
+        "id": 294,
+        "latitude": 40.73049393,
+        "longitude": -73.9957214
+      },
+      {
+        "id": 335,
+        "latitude": 40.72903917,
+        "longitude": -73.99404649
+      },
+      {
+        "id": 336,
+        "latitude": 40.73047747,
+        "longitude": -73.99906065
+      },
+      {
+        "id": 345,
+        "latitude": 40.73649403,
+        "longitude": -73.99704374
+      },
+      {
+        "id": 357,
+        "latitude": 40.73261787,
+        "longitude": -73.99158043
+      },
+      {
+        "id": 368,
+        "latitude": 40.73038599,
+        "longitude": -74.00214988
+      },
+      {
+        "id": 369,
+        "latitude": 40.73224119,
+        "longitude": -74.00026394
+      }
+    ],
+    "name": "NoHo",
+    "averageLocation": [
+      -73.99669675833334,
+      40.731842873333335
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 168,
+        "latitude": 40.73971301,
+        "longitude": -73.99456405
+      },
+      {
+        "id": 253,
+        "latitude": 40.73543934,
+        "longitude": -73.99453948
+      },
+      {
+        "id": 285,
+        "latitude": 40.73454567,
+        "longitude": -73.99074142
+      },
+      {
+        "id": 382,
+        "latitude": 40.73492695,
+        "longitude": -73.99200509
+      },
+      {
+        "id": 435,
+        "latitude": 40.74173969,
+        "longitude": -73.99415556
+      },
+      {
+        "id": 496,
+        "latitude": 40.73726186,
+        "longitude": -73.99238967
+      },
+      {
+        "id": 497,
+        "latitude": 40.73704984,
+        "longitude": -73.99009296
+      }
+    ],
+    "name": "Union Square",
+    "averageLocation": [
+      -73.99264117571428,
+      40.73723948
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 173,
+        "latitude": 40.76064679,
+        "longitude": -73.98442659
+      },
+      {
+        "id": 450,
+        "latitude": 40.76227205,
+        "longitude": -73.98788205
+      },
+      {
+        "id": 477,
+        "latitude": 40.75640548,
+        "longitude": -73.9900262
+      },
+      {
+        "id": 493,
+        "latitude": 40.7568001,
+        "longitude": -73.98291153
+      },
+      {
+        "id": 500,
+        "latitude": 40.76228826,
+        "longitude": -73.98336183
+      },
+      {
+        "id": 510,
+        "latitude": 40.7606597,
+        "longitude": -73.98042047
+      },
+      {
+        "id": 2021,
+        "latitude": 40.75929124,
+        "longitude": -73.98859651
+      }
+    ],
+    "name": "Theatre District",
+    "averageLocation": [
+      -73.98537502571429,
+      40.75976623142857
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 195,
+        "latitude": 40.70905623,
+        "longitude": -74.01043382
+      },
+      {
+        "id": 260,
+        "latitude": 40.70365182,
+        "longitude": -74.01167797
+      },
+      {
+        "id": 264,
+        "latitude": 40.70706456,
+        "longitude": -74.00731853
+      },
+      {
+        "id": 259,
+        "latitude": 40.70122128,
+        "longitude": -74.01234218
+      },
+      {
+        "id": 304,
+        "latitude": 40.70463334,
+        "longitude": -74.01361706
+      },
+      {
+        "id": 316,
+        "latitude": 40.70955958,
+        "longitude": -74.00653609
+      },
+      {
+        "id": 360,
+        "latitude": 40.70717936,
+        "longitude": -74.00887308
+      },
+      {
+        "id": 376,
+        "latitude": 40.70862144,
+        "longitude": -74.00722156
+      },
+      {
+        "id": 415,
+        "latitude": 40.7047177,
+        "longitude": -74.00926027
+      },
+      {
+        "id": 417,
+        "latitude": 40.71291224,
+        "longitude": -74.01020234
+      },
+      {
+        "id": 427,
+        "latitude": 40.701907,
+        "longitude": -74.013942
+      },
+      {
+        "id": 534,
+        "latitude": 40.70255065,
+        "longitude": -74.0127234
+      },
+      {
+        "id": 2008,
+        "latitude": 40.70569254,
+        "longitude": -74.01677685
+      }
+    ],
+    "name": "Financial District",
+    "averageLocation": [
+      -74.01084039615385,
+      40.706059056923074
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 150,
+        "latitude": 40.7208736,
+        "longitude": -73.98085795
+      },
+      {
+        "id": 302,
+        "latitude": 40.72082834,
+        "longitude": -73.97793172
+      },
+      {
+        "id": 332,
+        "latitude": 40.71219906,
+        "longitude": -73.97948148
+      },
+      {
+        "id": 341,
+        "latitude": 40.71782143,
+        "longitude": -73.97628939
+      },
+      {
+        "id": 342,
+        "latitude": 40.71739973,
+        "longitude": -73.98016555
+      },
+      {
+        "id": 400,
+        "latitude": 40.71926081,
+        "longitude": -73.98178024
+      }
+    ],
+    "name": "LoHo",
+    "averageLocation": [
+      -73.97941772166666,
+      40.718063828333335
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 174,
+        "latitude": 40.7381765,
+        "longitude": -73.97738662
+      },
+      {
+        "id": 507,
+        "latitude": 40.73912601,
+        "longitude": -73.97973776
+      },
+      {
+        "id": 545,
+        "latitude": 40.736502,
+        "longitude": -73.97809472
+      },
+      {
+        "id": 2012,
+        "latitude": 40.739445,
+        "longitude": -73.976806
+      }
+    ],
+    "name": "Bellevue",
+    "averageLocation": [
+      -73.978006275,
+      40.7383123775
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 216,
+        "latitude": 40.70037867,
+        "longitude": -73.99548059
+      },
+      {
+        "id": 321,
+        "latitude": 40.69991755,
+        "longitude": -73.98971773
+      },
+      {
+        "id": 407,
+        "latitude": 40.700469,
+        "longitude": -73.991454
+      }
+    ],
+    "name": "Tulton Ferry",
+    "averageLocation": [
+      -73.99221744,
+      40.70025507333334
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 217,
+        "latitude": 40.70277159,
+        "longitude": -73.99383605
+      }
+    ],
+    "name": "Fulton Ferry",
+    "averageLocation": [
+      -73.99383605,
+      40.70277159
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 218,
+        "latitude": 40.69028437,
+        "longitude": -73.98707105
+      },
+      {
+        "id": 261,
+        "latitude": 40.69474881,
+        "longitude": -73.98362464
+      },
+      {
+        "id": 278,
+        "latitude": 40.69766564,
+        "longitude": -73.98476437
+      },
+      {
+        "id": 323,
+        "latitude": 40.69236178,
+        "longitude": -73.98631746
+      },
+      {
+        "id": 390,
+        "latitude": 40.69221589,
+        "longitude": -73.9842844
+      },
+      {
+        "id": 392,
+        "latitude": 40.695065,
+        "longitude": -73.987167
+      }
+    ],
+    "name": "Downtown Brooklyn",
+    "averageLocation": [
+      -73.98553815333332,
+      40.69372358166667
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 229,
+        "latitude": 40.72743423,
+        "longitude": -73.99379025
+      },
+      {
+        "id": 250,
+        "latitude": 40.72456089,
+        "longitude": -73.99565293
+      },
+      {
+        "id": 251,
+        "latitude": 40.72317958,
+        "longitude": -73.99480012
+      },
+      {
+        "id": 303,
+        "latitude": 40.72362738,
+        "longitude": -73.99949601
+      }
+    ],
+    "name": "Nolita",
+    "averageLocation": [
+      -73.99593482750001,
+      40.72470052
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 236,
+        "latitude": 40.7284186,
+        "longitude": -73.98713956
+      },
+      {
+        "id": 237,
+        "latitude": 40.73047309,
+        "longitude": -73.98672378
+      },
+      {
+        "id": 300,
+        "latitude": 40.728145,
+        "longitude": -73.990214
+      },
+      {
+        "id": 326,
+        "latitude": 40.72953837,
+        "longitude": -73.98426726
+      },
+      {
+        "id": 432,
+        "latitude": 40.72621788,
+        "longitude": -73.98379855
+      },
+      {
+        "id": 438,
+        "latitude": 40.72779126,
+        "longitude": -73.98564945
+      },
+      {
+        "id": 439,
+        "latitude": 40.7262807,
+        "longitude": -73.98978041
+      }
+    ],
+    "name": "East Village",
+    "averageLocation": [
+      -73.98679614428572,
+      40.72812355714285
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 241,
+        "latitude": 40.68981035,
+        "longitude": -73.97493121
+      },
+      {
+        "id": 243,
+        "latitude": 40.688226,
+        "longitude": -73.979382
+      },
+      {
+        "id": 245,
+        "latitude": 40.69327018,
+        "longitude": -73.97703874
+      },
+      {
+        "id": 262,
+        "latitude": 40.69178232,
+        "longitude": -73.97372989
+      },
+      {
+        "id": 271,
+        "latitude": 40.68528172,
+        "longitude": -73.97805813
+      },
+      {
+        "id": 274,
+        "latitude": 40.68691865,
+        "longitude": -73.976682
+      },
+      {
+        "id": 298,
+        "latitude": 40.68683208,
+        "longitude": -73.9796772
+      },
+      {
+        "id": 353,
+        "latitude": 40.68539567,
+        "longitude": -73.97431458
+      },
+      {
+        "id": 416,
+        "latitude": 40.68753406,
+        "longitude": -73.97265183
+      }
+    ],
+    "name": "Fort Greene",
+    "averageLocation": [
+      -73.97627395333333,
+      40.68833900333334
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 242,
+        "latitude": 40.69788349,
+        "longitude": -73.97350332
+      },
+      {
+        "id": 270,
+        "latitude": 40.69308257,
+        "longitude": -73.97178913
+      },
+      {
+        "id": 313,
+        "latitude": 40.69610226,
+        "longitude": -73.96751037
+      },
+      {
+        "id": 343,
+        "latitude": 40.69794,
+        "longitude": -73.96986848
+      },
+      {
+        "id": 419,
+        "latitude": 40.69580705,
+        "longitude": -73.97355569
+      },
+      {
+        "id": 421,
+        "latitude": 40.69573398,
+        "longitude": -73.97129668
+      }
+    ],
+    "name": "Navy Yard",
+    "averageLocation": [
+      -73.971253945,
+      40.696091558333336
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 257,
+        "latitude": 40.71939226,
+        "longitude": -74.00247214
+      },
+      {
+        "id": 2010,
+        "latitude": 40.72165481,
+        "longitude": -74.00234737
+      }
+    ],
+    "name": "Lower Manhattan",
+    "averageLocation": [
+      -74.002409755,
+      40.720523535
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 263,
+        "latitude": 40.71729,
+        "longitude": -73.996375
+      },
+      {
+        "id": 296,
+        "latitude": 40.71413089,
+        "longitude": -73.9970468
+      },
+      {
+        "id": 355,
+        "latitude": 40.71602118,
+        "longitude": -73.99974372
+      },
+      {
+        "id": 412,
+        "latitude": 40.7158155,
+        "longitude": -73.99422366
+      }
+    ],
+    "name": "Chinatown",
+    "averageLocation": [
+      -73.99684729500001,
+      40.7158143925
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 266,
+        "latitude": 40.72368361,
+        "longitude": -73.97574813
+      },
+      {
+        "id": 301,
+        "latitude": 40.72217444,
+        "longitude": -73.98368779
+      },
+      {
+        "id": 317,
+        "latitude": 40.72453734,
+        "longitude": -73.98185424
+      },
+      {
+        "id": 339,
+        "latitude": 40.72580614,
+        "longitude": -73.97422494
+      },
+      {
+        "id": 393,
+        "latitude": 40.72299208,
+        "longitude": -73.97995466
+      },
+      {
+        "id": 411,
+        "latitude": 40.72228087,
+        "longitude": -73.97668709
+      }
+    ],
+    "name": "Alphabet City",
+    "averageLocation": [
+      -73.97869280833334,
+      40.72357908000001
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 267,
+        "latitude": 40.75097711,
+        "longitude": -73.98765428
+      },
+      {
+        "id": 362,
+        "latitude": 40.75172632,
+        "longitude": -73.98753523
+      },
+      {
+        "id": 498,
+        "latitude": 40.74854862,
+        "longitude": -73.98808416
+      },
+      {
+        "id": 505,
+        "latitude": 40.74901271,
+        "longitude": -73.98848395
+      }
+    ],
+    "name": "Koreatown",
+    "averageLocation": [
+      -73.987939405,
+      40.75006619
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 268,
+        "latitude": 40.71910537,
+        "longitude": -73.99973337
+      }
+    ],
+    "name": "Little Italy",
+    "averageLocation": [
+      -73.99973337,
+      40.71910537
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 279,
+        "latitude": 40.707873,
+        "longitude": -74.00167
+      },
+      {
+        "id": 306,
+        "latitude": 40.70823502,
+        "longitude": -74.00530063
+      },
+      {
+        "id": 315,
+        "latitude": 40.70355377,
+        "longitude": -74.00670227
+      },
+      {
+        "id": 337,
+        "latitude": 40.7037992,
+        "longitude": -74.00838676
+      },
+      {
+        "id": 351,
+        "latitude": 40.70530954,
+        "longitude": -74.00612572
+      }
+    ],
+    "name": "Seaport",
+    "averageLocation": [
+      -74.005637076,
+      40.705754106
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 281,
+        "latitude": 40.7643971,
+        "longitude": -73.97371465
+      },
+      {
+        "id": 352,
+        "latitude": 40.76340613,
+        "longitude": -73.97722479
+      },
+      {
+        "id": 499,
+        "latitude": 40.76915505,
+        "longitude": -73.98191841
+      },
+      {
+        "id": 530,
+        "latitude": 40.771522,
+        "longitude": -73.990541
+      },
+      {
+        "id": 2006,
+        "latitude": 40.76590936,
+        "longitude": -73.97634151
+      }
+    ],
+    "name": "West Side",
+    "averageLocation": [
+      -73.979948072,
+      40.766877928
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 282,
+        "latitude": 40.70827295,
+        "longitude": -73.96834101
+      },
+      {
+        "id": 389,
+        "latitude": 40.71044554,
+        "longitude": -73.96525063
+      },
+      {
+        "id": 443,
+        "latitude": 40.70853074,
+        "longitude": -73.96408963
+      },
+      {
+        "id": 460,
+        "latitude": 40.71285887,
+        "longitude": -73.96590294
+      },
+      {
+        "id": 471,
+        "latitude": 40.71286844,
+        "longitude": -73.95698119
+      },
+      {
+        "id": 481,
+        "latitude": 40.71260486,
+        "longitude": -73.96264403
+      },
+      {
+        "id": 532,
+        "latitude": 40.710451,
+        "longitude": -73.960876
+      },
+      {
+        "id": 539,
+        "latitude": 40.71534825,
+        "longitude": -73.96024116
+      },
+      {
+        "id": 2002,
+        "latitude": 40.716887,
+        "longitude": -73.963198
+      }
+    ],
+    "name": "South Side",
+    "averageLocation": [
+      -73.96305828777778,
+      40.71202973888889
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 290,
+        "latitude": 40.76020258,
+        "longitude": -73.96478473
+      },
+      {
+        "id": 2022,
+        "latitude": 40.75849116,
+        "longitude": -73.95920622
+      }
+    ],
+    "name": "Sutton Place",
+    "averageLocation": [
+      -73.96199547500001,
+      40.75934687
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 289,
+        "latitude": 40.6845683,
+        "longitude": -73.95881081
+      },
+      {
+        "id": 365,
+        "latitude": 40.68223166,
+        "longitude": -73.9614583
+      },
+      {
+        "id": 384,
+        "latitude": 40.68317813,
+        "longitude": -73.9659641
+      },
+      {
+        "id": 397,
+        "latitude": 40.68415748,
+        "longitude": -73.96922273
+      },
+      {
+        "id": 436,
+        "latitude": 40.68216564,
+        "longitude": -73.95399026
+      }
+    ],
+    "name": "Adelphi",
+    "averageLocation": [
+      -73.96188924,
+      40.683260242
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 291,
+        "latitude": 40.713126,
+        "longitude": -73.984844
+      },
+      {
+        "id": 311,
+        "latitude": 40.7172274,
+        "longitude": -73.98802084
+      },
+      {
+        "id": 350,
+        "latitude": 40.71559509,
+        "longitude": -73.9870295
+      },
+      {
+        "id": 356,
+        "latitude": 40.71622644,
+        "longitude": -73.98261206
+      },
+      {
+        "id": 502,
+        "latitude": 40.714215,
+        "longitude": -73.981346
+      }
+    ],
+    "name": "LoDel",
+    "averageLocation": [
+      -73.98477048,
+      40.715277986000004
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 295,
+        "latitude": 40.71406667,
+        "longitude": -73.99293911
+      },
+      {
+        "id": 307,
+        "latitude": 40.71427487,
+        "longitude": -73.98990025
+      },
+      {
+        "id": 331,
+        "latitude": 40.71173107,
+        "longitude": -73.99193043
+      },
+      {
+        "id": 340,
+        "latitude": 40.71269042,
+        "longitude": -73.98776323
+      },
+      {
+        "id": 408,
+        "latitude": 40.71076228,
+        "longitude": -73.99400398
+      }
+    ],
+    "name": "Two Bridges",
+    "averageLocation": [
+      -73.9913074,
+      40.712705062
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 297,
+        "latitude": 40.734232,
+        "longitude": -73.986923
+      },
+      {
+        "id": 325,
+        "latitude": 40.73624527,
+        "longitude": -73.98473765
+      },
+      {
+        "id": 461,
+        "latitude": 40.73587678,
+        "longitude": -73.98205027
+      },
+      {
+        "id": 483,
+        "latitude": 40.73223272,
+        "longitude": -73.98889957
+      }
+    ],
+    "name": "Gramercy",
+    "averageLocation": [
+      -73.9856526225,
+      40.7346466925
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 309,
+        "latitude": 40.7149787,
+        "longitude": -74.013012
+      },
+      {
+        "id": 327,
+        "latitude": 40.7153379,
+        "longitude": -74.01658354
+      },
+      {
+        "id": 363,
+        "latitude": 40.70834698,
+        "longitude": -74.01713445
+      },
+      {
+        "id": 3002,
+        "latitude": 40.711512,
+        "longitude": -74.015756
+      }
+    ],
+    "name": "Battery Park City",
+    "averageLocation": [
+      -74.0156214975,
+      40.712543894999996
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 312,
+        "latitude": 40.722055,
+        "longitude": -73.989111
+      },
+      {
+        "id": 401,
+        "latitude": 40.72019576,
+        "longitude": -73.98997825
+      },
+      {
+        "id": 403,
+        "latitude": 40.72502876,
+        "longitude": -73.99069656
+      },
+      {
+        "id": 428,
+        "latitude": 40.72467721,
+        "longitude": -73.98783413
+      }
+    ],
+    "name": "SPURA",
+    "averageLocation": [
+      -73.989404985,
+      40.7229891825
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 318,
+        "latitude": 40.75320159,
+        "longitude": -73.9779874
+      },
+      {
+        "id": 359,
+        "latitude": 40.75510267,
+        "longitude": -73.97498696
+      },
+      {
+        "id": 440,
+        "latitude": 40.75255434,
+        "longitude": -73.97282625
+      },
+      {
+        "id": 484,
+        "latitude": 40.75500254,
+        "longitude": -73.98014437
+      },
+      {
+        "id": 517,
+        "latitude": 40.752141,
+        "longitude": -73.979782
+      },
+      {
+        "id": 519,
+        "latitude": 40.752416,
+        "longitude": -73.97837
+      },
+      {
+        "id": 520,
+        "latitude": 40.75992262,
+        "longitude": -73.97648516
+      },
+      {
+        "id": 538,
+        "latitude": 40.75795248,
+        "longitude": -73.97787642
+      }
+    ],
+    "name": "Midtown",
+    "averageLocation": [
+      -73.97730732,
+      40.754786655000004
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 330,
+        "latitude": 40.71450451,
+        "longitude": -74.00562789
+      }
+    ],
+    "name": "City Hall",
+    "averageLocation": [
+      -74.00562789,
+      40.71450451
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 334,
+        "latitude": 40.74238787,
+        "longitude": -73.99726235
+      },
+      {
+        "id": 388,
+        "latitude": 40.749717753,
+        "longitude": -74.002950346
+      },
+      {
+        "id": 446,
+        "latitude": 40.74487634,
+        "longitude": -73.99529885
+      },
+      {
+        "id": 453,
+        "latitude": 40.74475148,
+        "longitude": -73.99915362
+      },
+      {
+        "id": 458,
+        "latitude": 40.751396,
+        "longitude": -74.005226
+      },
+      {
+        "id": 462,
+        "latitude": 40.74691959,
+        "longitude": -74.00451887
+      },
+      {
+        "id": 470,
+        "latitude": 40.74345335,
+        "longitude": -74.00004031
+      },
+      {
+        "id": 489,
+        "latitude": 40.75066386,
+        "longitude": -74.00176802
+      },
+      {
+        "id": 494,
+        "latitude": 40.74734825,
+        "longitude": -73.99723551
+      },
+      {
+        "id": 509,
+        "latitude": 40.7454973,
+        "longitude": -74.00197139
+      },
+      {
+        "id": 512,
+        "latitude": 40.7500727,
+        "longitude": -73.99839279
+      }
+    ],
+    "name": "Chelsea",
+    "averageLocation": [
+      -74.000347096,
+      40.74700768118181
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 344,
+        "latitude": 40.6851443,
+        "longitude": -73.95380904
+      },
+      {
+        "id": 373,
+        "latitude": 40.69331716,
+        "longitude": -73.95381995
+      }
+    ],
+    "name": "Bedford",
+    "averageLocation": [
+      -73.95381449499999,
+      40.68923073
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 349,
+        "latitude": 40.71850211,
+        "longitude": -73.98329859
+      },
+      {
+        "id": 410,
+        "latitude": 40.72066442,
+        "longitude": -73.98517977
+      }
+    ],
+    "name": "Lower East Side",
+    "averageLocation": [
+      -73.98423918,
+      40.719583265
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 361,
+        "latitude": 40.71605866,
+        "longitude": -73.99190759
+      },
+      {
+        "id": 531,
+        "latitude": 40.71893904,
+        "longitude": -73.99266288
+      }
+    ],
+    "name": "Bowery",
+    "averageLocation": [
+      -73.992285235,
+      40.71749885
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 379,
+        "latitude": 40.749156,
+        "longitude": -73.9916
+      },
+      {
+        "id": 442,
+        "latitude": 40.746647,
+        "longitude": -73.993915
+      },
+      {
+        "id": 490,
+        "latitude": 40.751551,
+        "longitude": -73.993934
+      },
+      {
+        "id": 492,
+        "latitude": 40.75019995,
+        "longitude": -73.99093085
+      },
+      {
+        "id": 523,
+        "latitude": 40.75466591,
+        "longitude": -73.99138152
+      },
+      {
+        "id": 521,
+        "latitude": 40.75044999,
+        "longitude": -73.99481051
+      }
+    ],
+    "name": "Garment District",
+    "averageLocation": [
+      -73.99276198,
+      40.75044497500001
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 386,
+        "latitude": 40.71494807,
+        "longitude": -74.00234482
+      },
+      {
+        "id": 387,
+        "latitude": 40.71273266,
+        "longitude": -74.0046073
+      }
+    ],
+    "name": "Civic Center",
+    "averageLocation": [
+      -74.00347606,
+      40.713840364999996
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 391,
+        "latitude": 40.69760127,
+        "longitude": -73.99344559
+      },
+      {
+        "id": 406,
+        "latitude": 40.69512845,
+        "longitude": -73.99595065
+      }
+    ],
+    "name": "Brooklyn Heights",
+    "averageLocation": [
+      -73.99469812,
+      40.69636486
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 394,
+        "latitude": 40.72521311,
+        "longitude": -73.97768752
+      }
+    ],
+    "name": "Loisaida",
+    "averageLocation": [
+      -73.97768752,
+      40.72521311
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 395,
+        "latitude": 40.68807003,
+        "longitude": -73.98410637
+      },
+      {
+        "id": 467,
+        "latitude": 40.68312489,
+        "longitude": -73.97895137
+      }
+    ],
+    "name": "Boerum Hill",
+    "averageLocation": [
+      -73.98152887,
+      40.68559746
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 396,
+        "latitude": 40.680342423,
+        "longitude": -73.9557689392
+      }
+    ],
+    "name": "Prospect Hights",
+    "averageLocation": [
+      -73.9557689392,
+      40.680342423
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 402,
+        "latitude": 40.7403432,
+        "longitude": -73.98955109
+      },
+      {
+        "id": 466,
+        "latitude": 40.74395411,
+        "longitude": -73.99144871
+      },
+      {
+        "id": 491,
+        "latitude": 40.74096374,
+        "longitude": -73.98602213
+      }
+    ],
+    "name": "Midtown South",
+    "averageLocation": [
+      -73.98900731,
+      40.74175368333333
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 414,
+        "latitude": 40.70281858,
+        "longitude": -73.98765762
+      },
+      {
+        "id": 430,
+        "latitude": 40.7014851,
+        "longitude": -73.98656928
+      },
+      {
+        "id": 2000,
+        "latitude": 40.70255088,
+        "longitude": -73.98940236
+      }
+    ],
+    "name": "Dumbo",
+    "averageLocation": [
+      -73.98787641999999,
+      40.70228485333333
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 418,
+        "latitude": 40.70224,
+        "longitude": -73.982578
+      }
+    ],
+    "name": "Vinegar Hill",
+    "averageLocation": [
+      -73.982578,
+      40.70224
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 422,
+        "latitude": 40.770513,
+        "longitude": -73.988038
+      },
+      {
+        "id": 423,
+        "latitude": 40.76584941,
+        "longitude": -73.98690506
+      },
+      {
+        "id": 449,
+        "latitude": 40.76461837,
+        "longitude": -73.98789473
+      },
+      {
+        "id": 447,
+        "latitude": 40.76370739,
+        "longitude": -73.9851615
+      },
+      {
+        "id": 457,
+        "latitude": 40.76695317,
+        "longitude": -73.98169333
+      },
+      {
+        "id": 468,
+        "latitude": 40.7652654,
+        "longitude": -73.98192338
+      },
+      {
+        "id": 469,
+        "latitude": 40.76344058,
+        "longitude": -73.98268129
+      },
+      {
+        "id": 480,
+        "latitude": 40.76669671,
+        "longitude": -73.99061728
+      },
+      {
+        "id": 513,
+        "latitude": 40.768254,
+        "longitude": -73.988639
+      }
+    ],
+    "name": "San Juan Hill",
+    "averageLocation": [
+      -73.98595039666667,
+      40.76614422555556
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 437,
+        "latitude": 40.6809833854,
+        "longitude": -73.9500479759
+      }
+    ],
+    "name": "Crown Heights",
+    "averageLocation": [
+      -73.9500479759,
+      40.6809833854
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 444,
+        "latitude": 40.7423543,
+        "longitude": -73.98915076
+      }
+    ],
+    "name": "Flatiron District",
+    "averageLocation": [
+      -73.98915076,
+      40.7423543
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 445,
+        "latitude": 40.72740794,
+        "longitude": -73.98142006
+      }
+    ],
+    "name": "Little Germany",
+    "averageLocation": [
+      -73.98142006,
+      40.72740794
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 448,
+        "latitude": 40.75660359,
+        "longitude": -73.9979009
+      },
+      {
+        "id": 479,
+        "latitude": 40.76019252,
+        "longitude": -73.9912551
+      },
+      {
+        "id": 478,
+        "latitude": 40.76030096,
+        "longitude": -73.99884222
+      },
+      {
+        "id": 488,
+        "latitude": 40.75645824,
+        "longitude": -73.99372222
+      },
+      {
+        "id": 514,
+        "latitude": 40.76087502,
+        "longitude": -74.00277668
+      },
+      {
+        "id": 515,
+        "latitude": 40.76009437,
+        "longitude": -73.99461843
+      },
+      {
+        "id": 525,
+        "latitude": 40.75594159,
+        "longitude": -74.0021163
+      },
+      {
+        "id": 529,
+        "latitude": 40.7575699,
+        "longitude": -73.99098507
+      }
+    ],
+    "name": "Midtown West",
+    "averageLocation": [
+      -73.99652711499999,
+      40.758504523750005
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 433,
+        "latitude": 40.72955361,
+        "longitude": -73.98057249
+      },
+      {
+        "id": 487,
+        "latitude": 40.73314259,
+        "longitude": -73.97573881
+      },
+      {
+        "id": 504,
+        "latitude": 40.73221853,
+        "longitude": -73.98165557
+      },
+      {
+        "id": 511,
+        "latitude": 40.72938685,
+        "longitude": -73.97772429
+      },
+      {
+        "id": 2003,
+        "latitude": 40.73416059,
+        "longitude": -73.98024289
+      }
+    ],
+    "name": "Stuyvesant Town",
+    "averageLocation": [
+      -73.97918681,
+      40.731692433999996
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 455,
+        "latitude": 40.75001986,
+        "longitude": -73.96905301
+      },
+      {
+        "id": 2017,
+        "latitude": 40.75022392,
+        "longitude": -73.97121414
+      }
+    ],
+    "name": "Tudor City",
+    "averageLocation": [
+      -73.970133575,
+      40.75012189
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 472,
+        "latitude": 40.7457121,
+        "longitude": -73.98194829
+      },
+      {
+        "id": 476,
+        "latitude": 40.74394314,
+        "longitude": -73.97966069
+      },
+      {
+        "id": 527,
+        "latitude": 40.74315566,
+        "longitude": -73.97434726
+      },
+      {
+        "id": 528,
+        "latitude": 40.74290902,
+        "longitude": -73.97706058
+      }
+    ],
+    "name": "Kips Bay",
+    "averageLocation": [
+      -73.978254205,
+      40.74392998
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 474,
+        "latitude": 40.7451677,
+        "longitude": -73.98683077
+      },
+      {
+        "id": 486,
+        "latitude": 40.7462009,
+        "longitude": -73.98855723
+      },
+      {
+        "id": 526,
+        "latitude": 40.74765947,
+        "longitude": -73.98490707
+      }
+    ],
+    "name": "Flatiron",
+    "averageLocation": [
+      -73.98676502333333,
+      40.746342690000006
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 475,
+        "latitude": 40.73524276,
+        "longitude": -73.98758561
+      },
+      {
+        "id": 503,
+        "latitude": 40.73827428,
+        "longitude": -73.98751968
+      }
+    ],
+    "name": "Gramercy-Flatiron",
+    "averageLocation": [
+      -73.987552645,
+      40.736758519999995
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 501,
+        "latitude": 40.744219,
+        "longitude": -73.97121214
+      },
+      {
+        "id": 518,
+        "latitude": 40.74780373,
+        "longitude": -73.9734419
+      }
+    ],
+    "name": "East Side",
+    "averageLocation": [
+      -73.97232702,
+      40.746011365
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 495,
+        "latitude": 40.76269882,
+        "longitude": -73.99301222
+      },
+      {
+        "id": 508,
+        "latitude": 40.76341379,
+        "longitude": -73.99667444
+      }
+    ],
+    "name": "Hell's Kitchen",
+    "averageLocation": [
+      -73.99484333000001,
+      40.763056305
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 516,
+        "latitude": 40.75206862,
+        "longitude": -73.96784384
+      }
+    ],
+    "name": "Beekman",
+    "averageLocation": [
+      -73.96784384,
+      40.75206862
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 536,
+        "latitude": 40.74144387,
+        "longitude": -73.97536082
+      }
+    ],
+    "name": "Medical Centre",
+    "averageLocation": [
+      -73.97536082,
+      40.74144387
+    ]
+  },
+  {
+    "stations": [
+      {
+        "id": 537,
+        "latitude": 40.74025878,
+        "longitude": -73.98409214
+      },
+      {
+        "id": 546,
+        "latitude": 40.74444921,
+        "longitude": -73.98303529
+      },
+      {
+        "id": 540,
+        "latitude": 40.74147286,
+        "longitude": -73.98320928
+      }
+    ],
+    "name": "Rose Hill",
+    "averageLocation": [
+      -73.98344557,
+      40.74206028333333
+    ]
+  }
+]
