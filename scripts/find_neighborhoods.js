@@ -12,8 +12,7 @@ async.each(
   function iterator(station, callback) {
     var station = {
       id: station.id,
-      latitude: station.latitude,
-      longitude: station.longitude,
+      location: [station.longitude, station.latitude]
     };
 
     var req = restler.get('https://api.flickr.com/services/rest', {
@@ -22,8 +21,8 @@ async.each(
         api_key: process.env.FLICKR_API_KEY,
         format: 'json',
         nojsoncallback: 1,
-        lat: station.latitude,
-        lon: station.longitude
+        lat: station.location[1],
+        lon: station.location[0]
       }
     });
 
@@ -43,7 +42,7 @@ async.each(
     req.on('fail', function(err) {
       callback(err);
     });
-  }, 
+  },
 
   function callback(err) {
     if (err) console.error(err);
@@ -54,14 +53,14 @@ async.each(
 
     _.each(neighborhoods, function(neighborhood) {
       var stations = neighborhood.stations;
-      var meanSum = function(prop) {
-        return function meanSum(accum, val) {
-          return accum + val[prop]/stations.length;
+      var meanCoordSum = function(index) {
+        return function meanCoordSum(accum, station) {
+          return accum + station.location[index]/stations.length;
         };
       };
       neighborhood.averageLocation = [
-        _.reduce(stations, meanSum('longitude'), 0),
-        _.reduce(stations, meanSum('latitude'), 0),
+        _.reduce(stations, meanCoordSum(0), 0),
+        _.reduce(stations, meanCoordSum(1), 0),
       ]
     });
 

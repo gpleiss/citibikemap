@@ -19,14 +19,13 @@ var g = svg.append('g');
 
 async.map([
   'data/map/nyc.json',
-  'data/citibike/stations.json',
   'data/citibike/stations_by_group.json'
 ], d3.json, function(error, data) {
   if (error) return console.error(error);
 
   var mapDataRaw = data[0];
-  var stationsDataRaw = data[1];
-  var neighborhoods = data[2];
+  var neighborhoods = data[1];
+  var stations = _.flatten(_.map(neighborhoods, 'stations'));
 
   var mapData = _.filter(mapDataRaw.features, function(feature) {
     return _.contains([1, 3], feature.properties.boroughCode);
@@ -42,33 +41,9 @@ async.map([
       .attr('data-borough', function(d) { return d.properties.boroughCode; })
       .attr('d', path);
 
-  var stations = _.map(stationsDataRaw.stationBeanList, function(station) {
-    return {
-      id: station.id,
-      coordinates: [station.longitude, station.latitude]
-    };
-  });
-
-  var stationsContainer = g.append('g')
-    .attr('id', 'stations-container')
-
-  var stationGroups = stationsContainer.selectAll('station')
-    .data(stations)
-    .enter()
-      .append('g')
-      .attr('class', 'station')
-      .attr('transform', function(d) { return 'translate(' + projection(d.coordinates) + ')'; });
-
-  stationGroups
-    .append('circle')
-    .attr('cx', 0)
-    .attr('cy', 0)
-    .attr('r', 2);
-
   var neighborhoodsContainer = g.append('g')
     .attr('id', 'neighborhoods-container');
 
-  console.log(neighborhoods);
   var neighborhoodGroups = neighborhoodsContainer.selectAll('neighborhood')
     .data(neighborhoods)
     .enter()
@@ -86,4 +61,20 @@ async.map([
     .append('text')
     .attr('x', 5)
     .text(function(d) { return d.name });
+
+  var stationsContainer = g.append('g')
+    .attr('id', 'stations-container')
+
+  var stationGroups = stationsContainer.selectAll('station')
+    .data(stations)
+    .enter()
+      .append('g')
+      .attr('class', 'station')
+      .attr('transform', function(d) { return 'translate(' + projection(d.location) + ')'; });
+
+  stationGroups
+    .append('circle')
+    .attr('cx', 0)
+    .attr('cy', 0)
+    .attr('r', 2);
 });
