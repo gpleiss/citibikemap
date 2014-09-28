@@ -41,6 +41,22 @@ async.map([
       .attr('data-borough', function(d) { return d.properties.boroughCode; })
       .attr('d', path);
 
+  var stationsContainer = g.append('g')
+    .attr('id', 'stations-container')
+
+  var stationGroups = stationsContainer.selectAll('station')
+    .data(stations)
+    .enter()
+      .append('g')
+      .attr('class', 'station')
+      .attr('transform', function(d) { return 'translate(' + projection(d.location) + ')'; });
+
+  stationGroups
+    .append('circle')
+    .attr('cx', 0)
+    .attr('cy', 0)
+    .attr('r', 2);
+
   var neighborhoodsContainer = g.append('g')
     .attr('id', 'neighborhoods-container');
 
@@ -59,22 +75,7 @@ async.map([
 
   neighborhoodGroups
     .append('text')
-    .attr('x', 5)
+    .attr('x', 8)
+    .attr('dy', 4)
     .text(function(d) { return d.name });
-
-  var stationsContainer = g.append('g')
-    .attr('id', 'stations-container')
-
-  var stationGroups = stationsContainer.selectAll('station')
-    .data(stations)
-    .enter()
-      .append('g')
-      .attr('class', 'station')
-      .attr('transform', function(d) { return 'translate(' + projection(d.location) + ')'; });
-
-  stationGroups
-    .append('circle')
-    .attr('cx', 0)
-    .attr('cy', 0)
-    .attr('r', 2);
 });

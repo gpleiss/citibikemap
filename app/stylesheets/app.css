@@ -1,9 +1,24 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
 #map-container .map-feature {
   fill: #AAF;
   stroke-width: 2px;
   stroke: #888;
 }
 
+.neighborhood circle {
+  fill: #44E;
+  stroke-width: 2px;
+  stroke: #EEE;
+}
+
 .neighborhood text {
-  font-size: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.station circle {
+  fill: #888;
 }
