@@ -1,0 +1,121 @@
+{
+  "Hell's Kitchen": [
+    "Hell's Kitchen",
+    "Clinton",
+    "San Juan Hill",
+    "Midtown West"
+  ],
+  "Midtown": [
+    "West Side",
+    "Theatre District",
+    "Midtown",
+    "Tenderloin",
+    "Garment District",
+    "Koreatown"
+  ],
+  "Midtown East": [
+    "Sutton Place",
+    "Turtle Bay",
+    "Midtown",
+    "Beekman",
+    "Tudor City",
+    "Murray Hill",
+    "East Side",
+    "Kips Bay"
+  ],
+  "Chelsea": [
+    "Chelsea"
+  ],
+  "Flatiron": [
+    "Flatiron",
+    "Flatiron District",
+    "Midtown South",
+    "Union Square",
+    "Gramercy-Flatiron"
+  ],
+  "Gramercy": [
+    "Gramercy",
+    "Bellevue",
+    "Medical Centre",
+    "Rose Hill"
+  ],
+  "West Village": [
+    "Meat Packing District",
+    "West Village"
+  ],
+  "NoHo": [
+    "NoHo"
+  ],
+  "East Village": [
+    "Stuyvesant Town",
+    "East Village",
+    "Little Germany",
+    "Loisaida",
+    "Alphabet City"
+  ],
+  "SoHo": [
+    "Soho",
+    "Nolita",
+    "Downtown",
+    "Lower Manhattan"
+  ],
+  "Lower East Side": [
+    "Lower East Side",
+    "SPURA",
+    "LoHo",
+    "LoDel",
+    "Bowery"
+  ],
+  "Chinatown": [
+    "Chinatown",
+    "LoDel",
+    "Two Bridges"
+  ],
+  "City Hall": [
+    "Little Italy",
+    "City Hall",
+    "Civic Center",
+    "City Hall Area",
+    "Governor Alfred e Smith Houses"
+  ],
+  "TriBeCa": [
+    "Tribeca",
+    "Lower Manhattan",
+    "Battery Park City"
+  ],
+  "Financial District": [
+    "Financial District",
+    "Seaport"
+  ],
+  "Williamsburg": [
+    "South Side"
+  ],
+  "Downtown Brooklyn": [
+    "Cadman Plaza",
+    "Downtown Brooklyn",
+    "Down Town"
+  ],
+  "Dumbo": [
+    "Dumbo",
+    "Vinegar Hill",
+    "New York Navy Yard"
+  ],
+  "Brooklyn Heights": [
+    "Fulton Ferry",
+    "Tulton Ferry",
+    "Brooklyn Heights",
+    "Cobble Hill"
+  ],
+  "Fort Greene/Clinton Hill": [
+    "Navy Yard",
+    "Fort Greene",
+    "Boerum Hill",
+    "Prospect Heights",
+    "Clinton Hill",
+    "Adelphi",
+    "Bedford",
+    "Prospect Hights",
+    "Crown Heights"
+  ]
+}
+

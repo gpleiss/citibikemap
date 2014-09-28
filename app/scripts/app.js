@@ -20,7 +20,7 @@ var g = svg.append('g');
 async.map([
   'data/map/nyc.json',
   'data/citibike/stations.json',
-  'data/citibike/stations_by_neighborhood.json'
+  'data/citibike/stations_by_group.json'
 ], d3.json, function(error, data) {
   if (error) return console.error(error);
 
