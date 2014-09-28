@@ -1,5 +1,9 @@
-var width = 700,
-    height = 700;
+function mapScale(width, height) {
+  return 420 * Math.min(width, height); // Precomputed formula, works for some reason.
+}
+
+var width = $(window).width();
+var height = $(window).height();
 
 var svg = d3.select('#map-container').append('svg')
     .attr('width', width)
@@ -7,7 +11,7 @@ var svg = d3.select('#map-container').append('svg')
 
 var projection = d3.geo.mercator()
   .center([-73.9819486, 40.7242699])
-  .scale(250000)
+  .scale(mapScale(width, height))
   .translate([(width) / 2, (height)/2])
   .translate([(width) / 2, (height)/2]);
 
