@@ -123,9 +123,15 @@ async.map([
     .on('mouseover', function(d) {
       d3.select(this.parentNode).select('g.trips-container')
         .classed('hidden', false);
+      d3.select(this.parentNode).select('circle.neighborhood-marker')
+        .transition().duration(200)
+        .attr('r', 8);
     })
     .on('mouseout', function(d) {
       d3.select(this.parentNode).select('g.trips-container')
         .classed('hidden', true);
+      d3.select(this.parentNode).select('circle.neighborhood-marker')
+        .transition().duration(200)
+        .attr('r', 5);
     });
 });
