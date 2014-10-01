@@ -88,20 +88,8 @@ async.map([
       .attr('class', 'neighborhood')
       .attr('transform', function(d) { return 'translate(' + projection(d.averageLocation) + ')'; });
 
-  neighborhoodGroups
-    .append('circle')
-    .attr('cx', 0)
-    .attr('cy', 0)
-    .attr('r', 5);
-
-  neighborhoodGroups
-    .append('text')
-    .attr('x', 8)
-    .attr('dy', 4)
-    .text(function(d) { return d.name });
-
   var tripGroups = neighborhoodGroups.append('g')
-    .attr('class', 'trips-container')
+    .attr('class', 'trips-container hidden')
     .attr('transform', function(d) { return 'translate(' + _.map(projection(d.averageLocation), negate) + ')'; });
 
   tripGroups.selectAll('trips')
@@ -109,6 +97,35 @@ async.map([
     .enter()
       .append('path')
       .attr('class', 'trip')
-      .attr('stroke-width', function(d) { return d.percentageOfTrips * 20; })
+      .attr('stroke-width', function(d) { return d.percentageOfTrips * 50; })
       .attr('d', path);
+
+  neighborhoodGroups
+    .append('circle')
+    .attr('class', 'neighborhood-marker')
+    .attr('cx', 0)
+    .attr('cy', 0)
+    .attr('r', 5);
+
+  neighborhoodGroups
+    .append('text')
+    .attr('class', 'neighborhood-label')
+    .attr('x', 8)
+    .attr('dy', 4)
+    .text(function(d) { return d.name });
+
+  neighborhoodGroups
+    .append('circle')
+    .attr('class', 'neighborhood-target')
+    .attr('cx', 0)
+    .attr('cy', 0)
+    .attr('r', 15)
+    .on('mouseover', function(d) {
+      d3.select(this.parentNode).select('g.trips-container')
+        .classed('hidden', false);
+    })
+    .on('mouseout', function(d) {
+      d3.select(this.parentNode).select('g.trips-container')
+        .classed('hidden', true);
+    });
 });

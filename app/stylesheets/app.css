@@ -3,19 +3,28 @@ body {
   font-family: Helvetica, Arial, Sans-Serif;
 }
 
+.hidden {
+  display: none !important;
+}
+
 #map-container .map-feature {
   fill: #AAF;
   stroke-width: 2px;
   stroke: #888;
 }
 
-.neighborhood circle {
+.neighborhood .neighborhood-marker {
   fill: #44E;
   stroke-width: 2px;
   stroke: #EEE;
 }
 
-.neighborhood text {
+.neighborhood .neighborhood-target {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.neighborhood .neighborhood-label {
   font-size: 12px;
   font-weight: bold;
 }
