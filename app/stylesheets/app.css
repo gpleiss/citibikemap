@@ -20,6 +20,10 @@ body {
   font-weight: bold;
 }
 
+.neighborhood .trip {
+  stroke: #337;
+}
+
 .station circle {
   fill: #888;
 }

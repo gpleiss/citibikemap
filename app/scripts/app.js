@@ -2,6 +2,10 @@ function mapScale(width, height) {
   return 420 * Math.min(width, height); // Precomputed formula, works for some reason.
 }
 
+function negate(num) {
+  return -num;
+}
+
 var width = $(window).width();
 var height = $(window).height();
 
@@ -23,16 +27,29 @@ var g = svg.append('g');
 
 async.map([
   'data/map/nyc.json',
-  'data/citibike/stations_by_group.json'
+  'data/citibike/stations_by_group.json',
+  'data/citibike/trips_histogram.json',
 ], d3.json, function(error, data) {
   if (error) return console.error(error);
 
   var mapDataRaw = data[0];
   var neighborhoods = data[1];
   var stations = _.flatten(_.map(neighborhoods, 'stations'));
+  var tripsRaw = data[2];
 
   var mapData = _.filter(mapDataRaw.features, function(feature) {
     return _.contains([1, 3], feature.properties.boroughCode);
+  });
+
+  _.each(tripsRaw, function(tripsByNeighborhood, i) {
+    var totalNumTrips = _.inject(tripsByNeighborhood, function(sum, numTrips) { return sum + numTrips; }, 0);
+    neighborhoods[i].trips = _.map(tripsByNeighborhood, function(tripsToDest, j) {
+      return {
+        type: "LineString",
+        coordinates: [neighborhoods[i].averageLocation, neighborhoods[j].averageLocation],
+        percentageOfTrips: tripsToDest/totalNumTrips
+      }
+    });
   });
 
   g.append('g')
@@ -82,4 +99,16 @@ async.map([
     .attr('x', 8)
     .attr('dy', 4)
     .text(function(d) { return d.name });
+
+  var tripGroups = neighborhoodGroups.append('g')
+    .attr('class', 'trips-container')
+    .attr('transform', function(d) { return 'translate(' + _.map(projection(d.averageLocation), negate) + ')'; });
+
+  tripGroups.selectAll('trips')
+    .data(function(neighborhood) { return neighborhood.trips; })
+    .enter()
+      .append('path')
+      .attr('class', 'trip')
+      .attr('stroke-width', function(d) { return d.percentageOfTrips * 20; })
+      .attr('d', path);
 });
